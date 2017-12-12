@@ -8,7 +8,8 @@ app.set('views', './views');
 
 app.get('/views', (req,res) => {
   res.render('temp', {
-    time: Date()
+    time: Date(),
+    mytitle: 'This is my title'
   });
 });
 
